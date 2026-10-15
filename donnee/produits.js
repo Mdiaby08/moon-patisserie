@@ -15,8 +15,8 @@ const CATEGORIES = {
         titre: "Cookies",
         description: "Croustillants dehors, moelleux dedans.",
         produits: [
-            { nom: "Cookie au chocolat", description: "Pépites de chocolat noir.", prix: 1.0, stock: 12 },
-            { nom: "Cookie caramel", description: "Cœur coulant au caramel.", prix: 1.5, stock: 6 }
+            { nom: "Cookie au chocolat", description: "Pépites de chocolat noir.", prix: 1.0, stock: 0 },
+            { nom: "Cookie caramel", description: "Cœur coulant au caramel.", prix: 1.5, stock: 0 }
         ]
     },
     boissons: {
@@ -30,14 +30,14 @@ const CATEGORIES = {
         titre: "Gâteaux",
         description: "Pour une personne ou à partager.",
         produits: [
-            { nom: "Charlotte aux fraises", description: "Biscuit cuillère, crème légère et fraises.", prix: 3.0, stock: 4 }
+            { nom: "Charlotte aux fraises", description: "Biscuit cuillère, crème légère et fraises.", prix: 3.0, stock: 0 }
         ]
     },
     tiramisu: {
         titre: "Tiramisus",
         description: "Faits maison, préparés à la commande.",
         produits: [
-            { nom: "Tiramisu classique", description: "Café, mascarpone et cacao.", prix: 3.5, stock: 8 }
+            { nom: "Tiramisu classique", description: "Café, mascarpone et cacao.", prix: 5.0, stock: 0 }
         ]
     }
 };
